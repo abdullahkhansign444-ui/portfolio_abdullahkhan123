@@ -1,0 +1,51 @@
+{
+  "basics": {
+    "name": "Abdullah Khan",
+    "handle": "abdullah",
+    "label": "Developer Portfolio",
+    "headline": "BSCS Student at GU TECH | [Your target role] | [2-3 focus areas, e.g. Web Development, Python, Problem Solving]",
+    "summary": "[Two sentences: what you are learning or building, and what you want to do next.]",
+    "email": "you@example.com",
+    "location": "Karachi, Pakistan",
+    "profiles": [
+      { "network": "LinkedIn", "url": "https://www.linkedin.com/in/abdullah-khan-6a19543b4/", "username": "abdullah-khan", "short": "in", "icon": "in", "blurb": "Updates & write-ups" },
+      { "network": "GitHub", "url": "https://github.com/abdullahkhansign444-ui", "username": "abdullahkhansign444-ui", "short": "gh", "icon": "🐙", "blurb": "Code & repositories" }
+    ]
+  },
+  "about": {
+    "intro": [
+      "[Paragraph 1: who you are and how you like to learn.]",
+      "[Paragraph 2: what you are building your foundation in while pursuing your BSCS at GU Tech / Al-Ghazali University.]"
+    ],
+    "pillars": [
+      { "title": "[ BUILD ]", "description": "[What you build or practice hands-on.]" },
+      { "title": "[ LEARN ]", "description": "[How you study: coursework, online courses, self-study.]" },
+      { "title": "[ SHARE ]", "description": "[How you document your work: GitHub, LinkedIn posts.]" }
+    ],
+    "metrics": [
+      { "value": "0", "label": "Projects shipped" },
+      { "value": "0", "label": "Repositories" },
+      { "value": "1", "label": "Degree in progress" },
+      { "value": "?", "label": "Target role" }
+    ]
+  },
+  "education": [
+    { "institution": "GU Tech / Al-Ghazali University", "area": "BS in Computer Science", "status": "[Year / status]" }
+  ],
+  "skills": [
+    { "category": "Programming", "level": 60, "items": ["Python", "C++", "JavaScript"] },
+    { "category": "Web", "level": 50, "items": ["HTML", "CSS", "React"] },
+    { "category": "Data & Databases", "level": 40, "items": ["SQL", "Pandas"] },
+    { "category": "Tools", "level": 55, "items": ["Git / GitHub", "Linux", "VS Code"] },
+    { "category": "Fundamentals", "level": 50, "items": ["Data Structures", "Algorithms", "OOP"] }
+  ],
+  "projects": [
+    {
+      "title": "[Project name]",
+      "outcome": "[One-line result]",
+      "description": "[What you built, how, and what you learned.]",
+      "tools": ["Python", "Git"],
+      "evidence": "https://github.com/abdullahkhansign444-ui"
+    }
+  ]
+}

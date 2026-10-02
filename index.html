@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#top" id="nav-logo"></a>
+  <div style="display:flex;align-items:center;gap:2rem">
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="nav-social" id="nav-social"></div>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-pre" id="hero-pre"></div>
+    <h1 id="hero-name"></h1>
+    <div class="hero-headline" id="hero-headline"></div>
+    <p class="hero-sub" id="hero-summary"></p>
+    <div class="hero-badges" id="hero-badges"></div>
+    <div class="hero-cta" id="hero-cta"></div>
+    <div class="hero-stats" id="hero-stats"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <span class="section-label">about_me</span>
+    <h2 class="section-title">Who I <span>Am</span></h2>
+    <div class="section-divider"></div>
+    <div class="about-grid">
+      <div>
+        <div class="about-text" id="about-text"></div>
+        <div class="edu" id="education"></div>
+      </div>
+      <div>
+        <div class="pillars" id="pillars"></div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <span class="section-label">technical_skills</span>
+    <h2 class="section-title">My <span>Arsenal</span></h2>
+    <div class="section-divider"></div>
+    <div class="radar-wrap"><svg class="radar" id="radar" viewBox="0 0 440 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skill radar chart"></svg></div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <span class="section-label">labs_and_projects</span>
+    <h2 class="section-title">Hands-on <span>Work</span></h2>
+    <div class="section-divider"></div>
+    <div class="social-banner" id="social-banner"></div>
+    <div class="projects-list" id="projects-list"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <span class="section-label">contact_me</span>
+    <h2 class="section-title">Get in <span>Touch</span></h2>
+    <div class="section-divider"></div>
+    <div class="contact-cards" id="contact-cards"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-term">
+    <span id="footer-text"></span>
+    <span class="cursor"></span>
+  </div>
+</footer>
+
+<noscript>This portfolio needs JavaScript enabled to load its content.</noscript>
+<script src="app.js"></script>
+</body>
+</html>
